@@ -72,12 +72,24 @@ footer {
     font-weight: bolder;
 }
 
-.caja{
+.cajaA{
     width:95%;
     background-color:#90EE90;
     box-shadow: 0.5em 0.5em 0.5em black;
-	border: 1px solid blue;
-	margin:  1em auto;
+    border: 1px solid blue;
+    margin:  1em auto;
+    min-height: 4em;
+    display: flex;
+    align-items: center;
+}
+
+.cajaB{
+    width:95%;
+    background-color:#B2DCCE;
+    box-shadow: 0.5em 0.5em 0.5em black;
+    border: 1px solid blue;
+    border-radius: 0.5em;
+    margin:  1em auto;
     min-height: 4em;
     display: flex;
     align-items: center;
